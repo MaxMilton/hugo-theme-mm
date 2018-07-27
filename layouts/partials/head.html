@@ -2,12 +2,16 @@
   <meta charset=utf-8>
   <meta name=viewport content="width=device-width, initial-scale=1">
 
-  <title>Max Milton</title>
+  <title>{{ .Site.Title }}</title>
   <meta name=description content="">
 
   <!-- FIXME: TEMP; REMOVE!! -->
-  <link href="https://cdn.jsdelivr.net/npm/@minna-ui/css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/@minna-ui/css" rel=stylesheet>
 
   <!-- <link href=/mm.css rel=stylesheet> -->
   <!-- <script src=/mm.js defer></script> -->
+
+  {{ $css := resources.Get "css/main.css" }}
+  {{ $style := $css | resources.PostCSS }}
+  <link href="{{ $style.Permalink }}" rel=stylesheet>
 </head>
