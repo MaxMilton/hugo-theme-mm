@@ -5,7 +5,7 @@
 
 # `mm` Hugo Theme
 
-TODO: Write me.
+🎨 Hugo theme used on <https://MaxMilton.com>.
 
 ## Overview
 
