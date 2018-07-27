@@ -1,0 +1,42 @@
+@import "@minna-ui/css/src/import.css";
+@import "./_variables.css";
+@import "@minna-ui/css/src";
+
+.icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.navbar-icon {
+  @extend .icon;
+}
+
+h1 {
+  /* prevent margin collapse; margin relative to parent */
+  display: inline-block;
+}
+
+/* Buttons */
+
+.button,
+.card-button {
+  font-weight: var(--text-weight-heavy);
+  text-transform: uppercase;
+}
+
+.button-action {
+  color: var(--white);
+  background-color: var(--intent-success);
+
+  &:hover,
+  &:focus {
+    background-color: var(--green2);
+  }
+
+  &:active {
+    background-color: var(--green1);
+  }
+}
