@@ -5,7 +5,7 @@
 
 # `mm` Hugo Theme
 
-🎨 Hugo theme used on <https://MaxMilton.com>.
+🎨 The [Hugo](https://gohugo.io) theme used on <https://MaxMilton.com>.
 
 ## Overview
 
