@@ -161,11 +161,11 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@minna-ui/css@^0.11.0":
+"@minna-ui/css@0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.11.0.tgz#28cf983b58f885a2f57e4e466f61b6cc97f56d07"
 
-"@minna-ui/eslint-config@^0.11.1":
+"@minna-ui/eslint-config@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.11.1.tgz#7ae3d80de384900ed18f6275c7fa835dbc4bda50"
   dependencies:
@@ -174,7 +174,7 @@
     eslint-plugin-import "^2.14.0"
     eslint-plugin-jest "^21.22.0"
 
-"@minna-ui/jest-config@^0.11.1":
+"@minna-ui/jest-config@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.11.1.tgz#83462972a52b9b00da28eeeb28cd194ae2753867"
   dependencies:
@@ -185,7 +185,7 @@
     babel-core "^7.0.0-bridge.0"
     babel-jest "^23.4.2"
 
-"@minna-ui/postcss-config@^0.11.1":
+"@minna-ui/postcss-config@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@minna-ui/postcss-config/-/postcss-config-0.11.1.tgz#d0fc9cb4a8d4c7043102c3d25385f48dec8d9f71"
   dependencies:
@@ -206,7 +206,7 @@
     postcss-nested "^3.0.0"
     postcss-use "^3.0.0"
 
-"@minna-ui/stylelint-config@^0.11.0":
+"@minna-ui/stylelint-config@0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/stylelint-config/-/stylelint-config-0.11.0.tgz#76435288a539b50aa508ff9f0eea373f31f79191"
   dependencies:
@@ -964,7 +964,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codecov@^3.0.4:
+codecov@3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.0.4.tgz#37f2bf9ed71086923aac7496d982e32e5899dfd8"
   dependencies:
@@ -1581,7 +1581,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^5.4.0:
+eslint@5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.4.0.tgz#d068ec03006bb9e06b429dc85f7e46c1b69fac62"
   dependencies:
@@ -2975,7 +2975,7 @@ jest-worker@^23.2.0:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^23.5.0:
+jest@23.5.0:
   version "23.5.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-23.5.0.tgz#80de353d156ea5ea4a7332f7962ac79135fbc62e"
   dependencies:
@@ -3917,7 +3917,7 @@ postcss-calc@^6.0.0, postcss-calc@^6.0.1:
     postcss-selector-parser "^2.2.2"
     reduce-css-calc "^2.0.0"
 
-postcss-cli@^6.0.0:
+postcss-cli@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-6.0.0.tgz#688e3750735a7bc21ea6e2f0e427f5f873c16f0b"
   dependencies:
@@ -4379,6 +4379,14 @@ postcss@6.0.22:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
+postcss@7.0.2, postcss@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.2.tgz#7b5a109de356804e27f95a960bef0e4d5bc9bb18"
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.4.0"
+
 postcss@^5.2.16:
   version "5.2.18"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
@@ -4399,14 +4407,6 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.13, postcss@^6.0.1
 postcss@^7.0.0, postcss@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.1.tgz#db20ca4fc90aa56809674eea75864148c66b67fa"
-  dependencies:
-    chalk "^2.4.1"
-    source-map "^0.6.1"
-    supports-color "^5.4.0"
-
-postcss@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.2.tgz#7b5a109de356804e27f95a960bef0e4d5bc9bb18"
   dependencies:
     chalk "^2.4.1"
     source-map "^0.6.1"
@@ -5158,7 +5158,7 @@ stylelint-order@^1.0.0:
     postcss "^7.0.2"
     postcss-sorting "^4.0.0"
 
-stylelint@^9.5.0:
+stylelint@9.5.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.5.0.tgz#f7afb45342abc4acf28a8da8a48373e9f79c1fb4"
   dependencies:

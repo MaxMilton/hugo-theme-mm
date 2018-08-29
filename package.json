@@ -13,19 +13,19 @@
     "test-ci": "jest --runInBand --ci --verbose --coverage"
   },
   "dependencies": {
-    "@minna-ui/css": "^0.11.0"
+    "@minna-ui/css": "0.11.0"
   },
   "devDependencies": {
-    "@minna-ui/eslint-config": "^0.11.1",
-    "@minna-ui/jest-config": "^0.11.1",
-    "@minna-ui/postcss-config": "^0.11.1",
-    "@minna-ui/stylelint-config": "^0.11.0",
-    "codecov": "^3.0.4",
-    "eslint": "^5.4.0",
-    "jest": "^23.5.0",
-    "postcss": "^7.0.2",
-    "postcss-cli": "^6.0.0",
-    "stylelint": "^9.5.0"
+    "@minna-ui/eslint-config": "0.11.1",
+    "@minna-ui/jest-config": "0.11.1",
+    "@minna-ui/postcss-config": "0.11.1",
+    "@minna-ui/stylelint-config": "0.11.0",
+    "codecov": "3.0.4",
+    "eslint": "5.4.0",
+    "jest": "23.5.0",
+    "postcss": "7.0.2",
+    "postcss-cli": "6.0.0",
+    "stylelint": "9.5.0"
   },
   "private": true
 }
