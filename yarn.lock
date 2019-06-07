@@ -206,11 +206,13 @@
     postcss-nested "^3.0.0"
     postcss-use "^3.0.0"
 
-"@minna-ui/stylelint-config@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/stylelint-config/-/stylelint-config-0.11.0.tgz#76435288a539b50aa508ff9f0eea373f31f79191"
+"@minna-ui/stylelint-config@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/stylelint-config/-/stylelint-config-0.17.0.tgz#0232192b27178cb58ffb67864e97e1055f66dfb4"
   dependencies:
+    stylelint-a11y "^1.1.9"
     stylelint-config-standard "^18.2.0"
+    stylelint-high-performance-animation "^1.1.1"
     stylelint-order "^1.0.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -5140,6 +5142,10 @@ stylehacks@^4.0.0:
     postcss "^6.0.0"
     postcss-selector-parser "^3.0.0"
 
+stylelint-a11y@^1.1.9:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.2.0.tgz#f7b852140f6f76a4e4a75ff768baf5e88f327c26"
+
 stylelint-config-recommended@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.1.0.tgz#f526d5c771c6811186d9eaedbed02195fee30858"
@@ -5149,6 +5155,10 @@ stylelint-config-standard@^18.2.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-18.2.0.tgz#6283149aba7f64f18731aef8f0abfb35cf619e06"
   dependencies:
     stylelint-config-recommended "^2.1.0"
+
+stylelint-high-performance-animation@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.2.1.tgz#544ab13978707c19d1d581d079aa848fa709717a"
 
 stylelint-order@^1.0.0:
   version "1.0.0"
