@@ -161,9 +161,9 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@minna-ui/css@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.11.0.tgz#28cf983b58f885a2f57e4e466f61b6cc97f56d07"
+"@minna-ui/css@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.25.0.tgz#e4e682b6b0663f3768ab02b1bf12823ae7b74d24"
 
 "@minna-ui/eslint-config@^0.11.1":
   version "0.11.1"
