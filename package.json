@@ -16,7 +16,7 @@
     "@minna-ui/css": "^0.11.0"
   },
   "devDependencies": {
-    "@minna-ui/eslint-config": "^0.11.1",
+    "@minna-ui/eslint-config": "^0.21.0",
     "@minna-ui/jest-config": "^0.11.1",
     "@minna-ui/postcss-config": "^0.11.1",
     "@minna-ui/stylelint-config": "^0.11.0",
